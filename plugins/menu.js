@@ -12,7 +12,10 @@ async function menu(sock, sender, message) {
 ㅤ  │┊  ☍ .  𝗃𝗉𝗆
 ㅤ  │┊  ☍ .  𝗃𝗉𝗆𝗍𝖺𝗀
 ㅤ  │┊  ☍ .  𝗉𝗎𝗌𝗁𝗄𝗈𝗇𝗍𝖺𝗄
-ㅤ  ╰─────────────────────`;
+ㅤ  ╰─────────────────────
+ㅤ  
+ㅤ 🐾  ╮ \`𝗉𝗈𝗐𝖾𝗋𝖾𝖽  𝖻𝗒\`   :   ${global.botName}  .  📓
+ㅤ  ╰✪ ${global.botWeb}  ¡!  ${global.botOwner}`;
 
   await sock.sendMessage(sender, {
     image: { url: global.banner },
